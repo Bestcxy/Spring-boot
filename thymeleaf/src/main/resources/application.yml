@@ -1,0 +1,7 @@
+# 本模板为主模板，不包含具体配置信息
+# 亦可在 main 方法中SpringApplicationBuilder.application().setAdditionalProfiles("test")
+# 亦可在启动时 --spring.profiles.active=test
+# 如果是maven 启动，可以添加  -P test
+spring :
+  profiles :
+    active : test
